@@ -1,0 +1,115 @@
+/* COULEURS DU THEME */
+
+.blanc-txt {
+    color: #ffffff;
+}
+
+.bleu-clair-color {
+    color: #34c5e8;
+}
+
+.bleu-clair-bg {
+    background: #34c5e8;
+}
+
+.gris-fonce-1-bg {
+    background: #535353;
+}
+
+.gris-fonce-2-bg {
+    background: #414141;
+}
+
+
+/* FONT DISPONIBLE */
+
+.fnt-montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.fnt-roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* DENSITE DISPONIBLE */
+
+.fnt-regular {
+    font-weight: 500;
+}
+
+.fnt-medium {
+    font-weight: 500;
+}
+
+.fnt-semi-bold {
+    font-weight: 600;
+}
+
+.fnt-bold {
+    font-weight: 600;
+}
+
+
+/* STYLES MODULES */
+
+.text-box {
+    color: #ffffff;
+}
+
+.text-box h2 {
+    color: #34c5e8;
+}
+
+.text-box ul {
+    list-style: none;
+    /* Remove default bullets */
+}
+
+.text-box ul li::before {
+    content: "\2022";
+    /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #34c5e8;
+    /* Change the color */
+    font-weight: bold;
+    /* If you want it to be bold */
+    display: inline-block;
+    /* Needed to add space between the bullet and the text */
+    width: 1em;
+    /* Also needed for space (tweak if needed) */
+    margin-left: -1em;
+    /* Also needed for space (tweak if needed) */
+    font-size: 25px;
+}
+
+.skill-group {}
+
+.skill-group {}
+
+
+/* STYLE PROGRESS BAR CUSTOMIZE */
+
+.progress-theme {
+    display: flex;
+    height: 1.75rem;
+    overflow: hidden;
+    line-height: 0;
+    font-size: .75rem;
+    background-color: #e9ecef;
+}
+
+.progress-bar-theme {
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    overflow: hidden;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #34c5e8;
+    transition: width .6s ease;
+}
+
+
+/* ATTRIBUTS REUTILISABLE */
