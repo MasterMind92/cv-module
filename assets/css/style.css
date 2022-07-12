@@ -59,6 +59,7 @@
 
 .text-box h2 {
     color: #34c5e8;
+    font-weight: bold;
 }
 
 .text-box ul {
@@ -84,14 +85,16 @@
 
 .skill-group {}
 
-.skill-group {}
+.skill-group-title {
+    margin-top: 20px;
+}
 
 
 /* STYLE PROGRESS BAR CUSTOMIZE */
 
 .progress-theme {
     display: flex;
-    height: 1.75rem;
+    height: 1.25rem;
     overflow: hidden;
     line-height: 0;
     font-size: .75rem;
@@ -113,3 +116,15 @@
 
 
 /* ATTRIBUTS REUTILISABLE */
+
+.coordonnees {
+    background: #535353;
+    padding: 15px;
+    margin: 20px 0;
+    color: #fff;
+}
+
+.separateur {
+    width: 100%;
+    margin: 25px 0;
+}
